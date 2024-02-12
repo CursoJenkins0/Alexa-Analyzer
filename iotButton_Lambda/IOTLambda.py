@@ -69,3 +69,4 @@ def insertDynamo(sentiment,newsTitle,timestamp):
        }
        )
       
+// Ahora sí que quedó re lindo el código de esta clase
