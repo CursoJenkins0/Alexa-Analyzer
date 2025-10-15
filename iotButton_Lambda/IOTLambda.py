@@ -2,7 +2,7 @@ import requests
 import json
 import datetime
 import boto3
-
+//actulaizacion de lambda
 #this lambda gets triggered from an IOT button, if IOT button is pressed once
 #it grabs today's headlines, does sentiment analysis using AWS Comprehend
 #and saves the news along with sentiment into a dynamodb table
@@ -69,3 +69,4 @@ def insertDynamo(sentiment,newsTitle,timestamp):
        }
        )
       
+
