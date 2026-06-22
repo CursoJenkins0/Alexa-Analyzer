@@ -17,7 +17,7 @@ def lambda_handler(event, context):
         deleteNews()
     
     return 'End of News Sentiment IOT function'
-
+//ajustando lambda
 
 def deleteNews():
     dynamodb = boto3.resource('dynamodb')
